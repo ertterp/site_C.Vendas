@@ -5,3 +5,9 @@
     min-height: 400px;
     background-color: #101010;
 }
+#container div{
+    height: 370px;
+    width: 335px;
+    background: whitesmoke;
+    margin: 60px;
+}
