@@ -11,3 +11,33 @@ section{
     width: 200px;
     align-items: center;
 }
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .search-btn {
+    padding: 10px 20px;
+    background-color: #7a5033;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .search-btn:hover {
+    background-color: #492f1e;
+  }
+  
