@@ -10,7 +10,6 @@ section{
     height: 200px;
     width: 200px;
 }
-.produto2{
-    height: 370px;
-    width: 335px;
+section .produto2{
+    align-items: center;
 }
