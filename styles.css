@@ -12,6 +12,11 @@ section {
   width: 900px;
   align-items: center;
 }
+.h1{
+  border: #333;
+  border-radius: 10px;
+}
+
 .price-card-container {
   display: flex;
   gap: 20px;
