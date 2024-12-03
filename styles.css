@@ -1,4 +1,10 @@
 body{
-    background-color: rgb(62, 61, 61);
+    background-color:#35231b;
     font-family: monospace;
+}
+section{
+    margin: 2rem 3rem;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: #514137;
 }
