@@ -23,8 +23,11 @@
     <header>
 
         <h1>AZ box</h1>
-<div class="search-container">
-    <input type="text" id="search-input" class="search-input" placeholder="Buscar produtos...">
+        <div class="search-container">
+    <input type="text" id="search-input" class="search-input" placeholder="Buscar produtos..." oninput="showSuggestions()" autocomplete="off">
+    <div id="suggestions" class="suggestions-container"></div>
+  </div>
+  
   </div>
   
     </header>
