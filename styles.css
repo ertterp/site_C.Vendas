@@ -110,3 +110,18 @@ img {
 .container.header{
   align-items: center;
 }
+@media (max-width: 768px) {
+  .products {
+      grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 480px) {
+  .products {
+      grid-template-columns: 1fr; 
+  }
+
+  header input {
+      width: 100%; 
+  }
+}
