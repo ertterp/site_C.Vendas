@@ -19,6 +19,14 @@ section {
   color: #ffffff;
 }
 
+img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #444;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
 .price-card-container {
   display: flex;
   gap: 20px;
