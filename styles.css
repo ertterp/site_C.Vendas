@@ -20,8 +20,8 @@ section {
 }
 
 img {
-  width: 100%;
-  height: auto;
+  width: 100px;
+  height: 100px;;
   border-bottom: 1px solid #444;
   margin-bottom: 10px;
   border-radius: 3px;
