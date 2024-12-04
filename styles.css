@@ -107,3 +107,6 @@ img {
 .search-bar button:hover {
   background-color: #C1BAA1;
 }
+.container.header{
+  align-items: center;
+}
