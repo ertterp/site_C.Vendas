@@ -79,49 +79,32 @@ img {
   background-color: #45a049;
 }
 
-.search-bar {
-  margin-top: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.search-bar input {
-  width: 300px;
+header input {
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px 0 0 5px;
-  outline: none;
+  font-size: 16px;
+  width: 300px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #444;
+  color: #f0f0f0;
+}
+
+.container.header {
   align-items: center;
 }
 
-.search-bar button {
-  padding: 10px 15px;
-  border: none;
-  background-color: #A59D84;
-  color: white;
-  cursor: pointer;
-  border-radius: 0 4px 4px 0;
-  transition: background-color 0.3s;
-}
-
-.search-bar button:hover {
-  background-color: #C1BAA1;
-}
-.container.header{
-  align-items: center;
-}
 @media (max-width: 768px) {
   .products {
-      grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 480px) {
   .products {
-      grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
   }
 
   header input {
-      width: 100%; 
+    width: 100%;
   }
 }
