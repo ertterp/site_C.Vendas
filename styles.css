@@ -1,5 +1,5 @@
 body {
-  background-color: #A59D84;
+  background-color:#A59D84;
   font-family: monospace;
 }
 
@@ -12,8 +12,7 @@ section {
   height: 150px;
   width: 1250px;
 }
-
-.h1 {
+.h1{
   border: #333;
   border-radius: 10px;
 }
@@ -22,9 +21,8 @@ section {
   display: flex;
   gap: 20px;
 }
-
 .price-card {
-  background-color: #ECEBDE;
+  background-color:#ECEBDE;
   padding: 20px;
   width: 250px;
   border-radius: 8px;
@@ -32,29 +30,24 @@ section {
   text-align: center;
   transition: transform 0.3s;
 }
-
 .price-card:hover {
   transform: scale(1.05);
 }
-
 .price-card h3 {
   margin: 0;
   font-size: 1.5em;
   color: #333;
 }
-
 .price-card .price {
   font-size: 2em;
   color: #000000;
   margin: 10px 0;
 }
-
 .price-card p {
   color: #777;
   font-size: 1em;
   margin-bottom: 20px;
 }
-
 .price-card button {
   background-color: #4CAF50;
   color: white;
@@ -65,35 +58,6 @@ section {
   font-size: 1em;
   transition: background-color 0.3s;
 }
-
 .price-card button:hover {
   background-color: #45a049;
-}
-
-.search-bar {
-  margin-top: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.search-bar input {
-  width: 300px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px 0 0 4px;
-  outline: none;
-}
-
-.search-bar button {
-  padding: 10px 15px;
-  border: none;
-  background-color: #007bff;
-  color: white;
-  cursor: pointer;
-  border-radius: 0 4px 4px 0;
-  transition: background-color 0.3s;
-}
-
-.search-bar button:hover {
-  background-color: #0056b3;
 }
