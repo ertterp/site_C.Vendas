@@ -79,7 +79,7 @@ section {
 .search-bar button {
   padding: 10px 15px;
   border: none;
-  background-color: #007bff;
+  background-color: #A59D84;
   color: white;
   cursor: pointer;
   border-radius: 0 4px 4px 0;
@@ -87,7 +87,7 @@ section {
 }
 
 .search-bar button:hover {
-  background-color: #0056b3;
+  background-color: #ECEBDE;
 }
 .form{
   align-items: center;
