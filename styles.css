@@ -2,7 +2,9 @@ body {
   background-color: #A59D84;
   font-family: monospace;
 }
-
+h1{
+  color: white;
+}
 section {
   margin: 3rem;
   margin: 1rem;
