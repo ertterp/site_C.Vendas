@@ -16,7 +16,7 @@ section {
 .navbar {
   background-color: #bbb29f;
   color: #fff;
-  padding: 15px 30px;
+  align-items: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
