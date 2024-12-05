@@ -2,6 +2,7 @@ body {
   background-color: #A59D84;
   font-family: monospace;
 }
+
 section {
   margin: 3rem;
   margin: 1rem;
@@ -65,9 +66,10 @@ section {
 }
 
 .h1 {
-  border: #333;
-  border-radius: 10px;
-  color: #ffffff;
+  color:white ;
+  text-align: center;
+  font-size: 20px;
+
 }
 
 img {
