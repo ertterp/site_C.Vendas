@@ -13,6 +13,8 @@ section {
   width: 1250px;
 }
 nav{
+  position: sticky;
+  top: 0;
   width: 100px;
   height: 80px;
   background-color: #bbb29f;
