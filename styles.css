@@ -12,7 +12,18 @@ section {
   height: 320px;
   width: 1250px;
 }
+nav{
+  width: 100px;
+  height: 80px;
+  background-color: #bbb29f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding:0 16px;
+  margin-bottom: 16px;
 
+}
 .h1 {
   border: #333;
   border-radius: 10px;
